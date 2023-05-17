@@ -1,67 +1,134 @@
 * {
-  margin: 0;
-  padding: 0;
-}
+    margin: 0;
+    padding: 0;
+  }
+  
+  .border.rounded {
+    border-radius: 100px;
+  }
+  
 
-.border.rounded {
-  border-radius: 100px;
-}
 
-.area-login {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 10px;
-  height: 100vh;
-  align-items: center;
-  background-image: url(https://droper-media.us-southeast-1.linodeobjects.com/12420231533193.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
-.login {
-  background-color: #fff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 355px;
-  height: 320px;
-  padding: 35px;
-}
 
-.login form {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
+  .area-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    height: 100vh;
+    align-items: center;
+    background-image: url(https://droper-media.us-southeast-1.linodeobjects.com/12420231533193.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .login {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 355px;
+    height: 320px;
+    padding: 35px;
+    border-radius: 30px;
+  }
+  
+  .login form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .login input {
+    margin-top: 10px;
+    background-color: #f7f6f6;
+    border: none;
+    height: 45px;
+    border-radius: 8px;
+    color: #000;
+    padding-left: 10px;
+  }
+  
+  input::placeholder {
+    color: #000;
+    font-size: 14px;
+  }
+  
+  form [type="submit"] {
+    display: block;
+    background-color: aliceblue;
+    width: 100%;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  p {
+    color: #000;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+  
 
-.login input {
-  margin-top: 10px;
-  background-color: #f7f6f6;
-  border: none;
-  height: 45px;
-  border-radius: 8px;
-  color: #000;
-  padding-left: 10px;
-}
-
-input::placeholder {
-  color: #000;
-  font-size: 14px;
-}
-
-form [type="submit"] {
-  display: block;
-  background-color: aliceblue;
-  width: 100%;
-  font-size: 20px;
-  text-transform: uppercase;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-p {
-  color: #000;
-  text-decoration: none;
-  margin-left: 10px;
-}
+  .area-cadastro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    height: 100vh;
+    align-items: center;
+    background-image: url(https://droper-media.us-southeast-1.linodeobjects.com/12420231533193.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .cadastro {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 355px;
+    height: 400px;
+    padding: 35px;
+    border-radius: 30px;
+  }
+  
+  .cadastro form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .cadastro input {
+    margin-top: 10px;
+    background-color: #f7f6f6;
+    border: none;
+    height: 45px;
+    border-radius: 8px;
+    color: #000;
+    padding-left: 10px;
+  }
+  
+  input::placeholder {
+    color: #000;
+    font-size: 14px;
+  }
+  
+  form [type="submit"] {
+    display: block;
+    background-color: aliceblue;
+    width: 100%;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  p {
+    color: #000;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+  
