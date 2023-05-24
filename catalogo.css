@@ -1,0 +1,52 @@
+h1{
+    padding-top: 35px;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.produtos{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.produto{
+    width: 300px;
+    border: 1px solid rgb(211, 211, 211);
+    padding: 15px;
+    transition: box-shadow .3s;
+}
+
+.produto:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+
+.produto-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.produto-nome{
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.produto-price{
+    font-size: 0.8rem;
+}
+
+img{
+    width: 100%;
+}
+
+.carousel slide{
+    max-width: 50%;
+}

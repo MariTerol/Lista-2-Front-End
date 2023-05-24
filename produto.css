@@ -1,0 +1,60 @@
+.produto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap ;
+}
+
+img{
+    flex-grow: 1;
+    max-width: 600px;
+}
+
+.produto{
+    padding-top: 8rem;
+}
+
+.produto-info{
+    width: 40%;
+}
+
+h1{
+    font-weight: bold;
+}
+
+.brand{
+    padding-bottom: 20px;
+}
+
+.compra{
+    padding-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.btn-primary{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 1px solid black;
+}
+
+.produto-texto{
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.desconto-input{
+    border-radius: 5px;
+    height: 100%;
+}
+
+.desconto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.texto-desconto{
+    font-size: 0.8rem;
+    font-weight: bold;
+}
